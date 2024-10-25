@@ -85,6 +85,9 @@ Brilliant flames illuminate the scene, casting flickering shadows that dance acr
 
 As the scene unfolds, light leaks and optical flares from the raging fires create a mesmerizing visual effect, enhancing the feeling of a world on the brink of devastation. The atmosphere is charged with tension, as the elven defenders fight valiantly against the overwhelming onslaught of orcs, whose crude, dark armor contrasts sharply with the elven elegance. The viewer is thrust into this gripping moment, where the air is filled with the weight of impending loss, heroism, and the desperate fight to save a once-beautiful realm from engulfing darkness.*
 
+### Prompt 12:
+*High-budget cinematic scene, Frostpunk aesthetic, Cinestill 50d tones, earthy neutrals, cinematic contour lighting. The camera angle is low and slightly tilted, emphasizing a towering robotic figure surrounded by a squad of modern troops in black tactical gear, each draped in burlap priest robes over their uniforms. The robot’s elongated head features intricate, insect-like carapace protrusions, with hundreds of milky white plastic micro-pieces, tubes, and cables that give it an otherworldly, organic appearance. Its amber-lit eyes cast a soft, eerie g low, while golden bionic horns rise from its crown, blending ancient Byzantine artistry with advanced technology. Clad in aged Byzantine armor and a burlap priest robe, the robot grips an immense wooden Christian cross, holding it as a symbol of power and purpose, towering over the marching troops. The whole scene takes places on an old paved road surrounded by ruins of an old greek city, ruins are barely visible in the mist*
+
 
 ## 🎬 **Cinematic Effects & Jargon**
 
