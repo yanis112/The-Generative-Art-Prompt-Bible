@@ -122,6 +122,14 @@ In the world of cinematic visuals, there are various terms used in post-producti
 
 The term "**cinematic look**" refers to the overall aesthetic created through these post-production effects, helping transform an ordinary shot into something visually stunning and dynamic.
 
+### Famous styles
+-Frostpunk
+-Cinestill 50d
+-Earthy nuteralism
+-Cinematic contour lighting
+
+
+
 ## 🎬 Camera Angles & Cinematography
 Camera angles and movements play a critical role in visual storytelling. Incorporating these elements into your prompts can give your images depth, atmosphere, and cinematic flair.
 
