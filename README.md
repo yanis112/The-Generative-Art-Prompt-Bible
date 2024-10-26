@@ -105,11 +105,18 @@ In the world of cinematic visuals, there are various terms used in post-producti
 
 5. **Film Emulation**: A technique that replicates the look of traditional analog film in digital formats, enhancing textures and lighting for a more authentic filmic appearance.
 
+6. ** Muted Colours**
+
+
 ### Cinematic Enhancements
 
 1. **Lens Flares**: An effect that simulates light scattering inside a camera lens, often used to add a more cinematic feel to an image.
 
 2. **Light Leaks**: Effects that simulate light entering the camera unintentionally, creating artistic halos or bursts of light across the image.
+
+3. ** Shot on Arry Alexa film **
+
+4. ** Cinestill Film **
 
 ### Atmospheric Effects
 
@@ -138,6 +145,8 @@ Camera angles and movements play a critical role in visual storytelling. Incorpo
 
 ### Establishing Shot
 A wide-angle shot showing the entire scene, often used to introduce a setting.
+
+### drone aesthetic 
 
 ### Aerial Shot
 A bird’s-eye view, typically captured using drones or helicopters, to showcase large landscapes or cityscapes.
