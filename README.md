@@ -1,4 +1,4 @@
-# 📖 Guide: Mastering Prompting for Imagen3
+# 📖 Guide: Mastering Prompting for Imagen3, Flux-1.1-pro,Luma AI
 
 Welcome to **Mastering Prompting for Imagen3**! This guide will help you craft high-quality prompts to generate stunning visuals using the **Imagen3 model by Google**. Whether you're a beginner or looking to refine your skills, this guide is packed with examples, tips, and a glossary to make your journey easier.
 
