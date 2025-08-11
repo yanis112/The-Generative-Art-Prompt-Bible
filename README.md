@@ -12,7 +12,11 @@ Before we dive in, it's important to understand a few things about how image gen
 *   **The "Best-of" bias:** Providers and users often showcase their best results, which can create a skewed perception of a model's capabilities. It's important to remember that you are often seeing the highlights, and not the average result.
 *   **The power of the dataset:** Image and video generation models are trained on vast datasets of images. However, these datasets are not uniformly distributed. For example, images of a person walking down the street are much more common than images of a knight riding a dragon. This distribution influences the model's ability to generate certain types of images.
 *   **Style bias:** A scene can be strongly associated with a particular style in the training data. For instance, scenes from Tolkien's Silmarillion are more likely to be associated with book illustrations than with a cinematic, IMAX-style scene. This can make it challenging for the model to generate images in a style that is not well-represented for a given subject in its training data. This is why it is sometimes difficult to generate things that don't "already exist" in a way in the training data.
-*   **What does it mean to "create"?** It's a common misconception that these models "create" art in the same way a human does. In reality, they are interpolating within a vast, high-dimensional space of possibilities that is entirely defined by the data they were trained on. They can certainly generate an image that has never existed before by combining elements they have learned—for example, applying the style from one image to the subject of another. However, it's more accurate to say that a generative model, guided by your prompt, is navigating this complex space to find a point that matches your description, rather than "creating" something from scratch.
+*   **What does it mean to "create"?** The question of whether AI models "create" art is a fascinating one, and it echoes a debate that dates back to ancient Greece. For Plato, art was a form of *mimesis* (imitation), but he saw it as a mere copy of the physical world, which was itself a copy of a higher reality of "Forms". In this view, art is twice removed from the truth. Aristotle also saw art as mimesis, but for him, it was a creative act of "recomposing" elements from nature to reveal deeper, universal truths.
+
+    This ancient debate provides a powerful lens through which to understand modern generative models. Like Plato's artist, a generative model is, in a sense, "copying" from the vast dataset of images it has been trained on. It operates within a high-dimensional space that is entirely constrained by this data. However, like Aristotle's artist, the model can also be seen as "recomposing" these existing elements in novel ways to create something that has never been seen before. It can blend styles, combine objects, and generate new compositions based on the statistical patterns it has learned.
+
+    So, while a generative model doesn't "create" in the human sense of the word, it does more than just copy. It navigates a complex space of possibilities, guided by a prompt, to produce a new image that is a "recomposition" of what it has learned. This is why it is sometimes difficult to generate things that don't "already exist" in some form in the training data.
 
 ## 🌟 Table of Contents
 1. 🎯 **Introduction to Prompting**
@@ -134,6 +138,56 @@ Here is an example of a prompt that uses a proper noun, and a better version tha
     <td align="center">descriptive without out of distribution proper noun</td>
   </tr>
 </table>
+
+## 🎨 Model Diversity: Same Prompt, Different Results
+
+One of the most fascinating aspects of generative AI is that different models, even when given the exact same prompt, will produce vastly different results. This is because each model has its own unique training data, architecture, and fine-tuning, which gives it a distinct "artistic personality."
+
+Here is a prompt that was used to generate images from four different models.
+
+**The Prompt:**
+
+> 35mm film look movie still, ARRI Alexa, Summilux lens: Hyperrealistic photography, photorealistic quality, cinematic grain. A dramatic, low-angle shot captures an immense, fat pirate figure dominating the frame, embodying raw, imposing power. He smiles menacingly, his face dominated by a long, hooked nose and a wide, gap-toothed grin revealing crooked, yellowed teeth. Thick unkempt black beard and hair spilling from beneath a black captain's hat and turquoise bandana. A voluminous, crimson captain's coat with intricate golden trim and epaulets is draped open over his bare, muscular chest. He wears multiple striking necklaces: one composed of large, lustrous green beads and another of gold links interspersed with deep purple discs. Rings adorn his fingers, and a bracelet graces his wrist. A swirling mass of inky dark mist radiates from one of its clenched fist, while the other fist is surrounded by a sphere of pure white light. The background is a sun-drenched, slightly blurred expanse, suggesting a vast, open battleground under a bright sky, with shallow depth of field keeping the colossal figure sharply in focus.
+
+**Reference Image:**
+
+<img src="medias/Barbenoir.jpg" width="400">
+
+**Model Outputs:**
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="medias/imagen4_ultra_bb.png" width="400">
+      <br>
+      <b>Imagen4 Ultra</b>
+    </td>
+    <td align="center">
+      <img src="medias/midjourney_v7_bb.png" width="400">
+      <br>
+      <b>Midjourney v7</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="medias/krea_1_bb.png" width="400">
+      <br>
+      <b>Krea</b>
+    </td>
+    <td align="center">
+      <img src="medias/seedream_3_bb.jpeg" width="400">
+      <br>
+      <b>SeeDream 3</b>
+    </td>
+  </tr>
+</table>
+
+### Observations
+
+*   **Imagen4 Ultra:** This model is the most faithful to the prompt in terms of content and requested elements (they are all there), but the visual style is less appealing.
+*   **Midjourney v7:** This model does not respect all the elements of the prompt, but the artistic quality and colors are much better.
+*   **Krea:** This model generates an ultra-realistic image worthy of a film, but it lacks the epic feel requested in the prompt.
+*   **SeeDream 3:** This model has respected all the elements of the prompt and has an interesting and unique style.
 
 ## 🏆 Choosing the Best Models
 
